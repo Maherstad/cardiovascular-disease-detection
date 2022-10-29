@@ -1,0 +1,23 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-10-29T08:50:22.682913",
+    "startedAt": "2022-10-29T08:50:21.843065",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1070",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Documents/cardiovascular-disease-detection/pred_w_dl.ipynb",
+    "root": "C:/Users/marka/Documents/cardiovascular-disease-detection",
+    "git": {
+        "remote": "git@github.com:Maherstad/cardiovascular-disease-detection.git",
+        "commit": "c9cd9c1a6b1c21b1fac7fa834dcecb1a1dd03643"
+    },
+    "email": "alsadeq.maher@gmail.com",
+    "host": "Marks-WIN-PC",
+    "username": "marka",
+    "executable": "D:\\Users\\marka\\anaconda3\\python.exe"
+}

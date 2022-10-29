@@ -1,0 +1,776 @@
+2022-10-29 02:09:42,696 INFO    StreamThr :24636 [internal.py:wandb_internal():88] W&B internal server running at pid: 24636, started at: 2022-10-29 02:09:42.695234
+2022-10-29 02:09:42,699 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: status
+2022-10-29 02:09:42,702 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: status
+2022-10-29 02:09:42,705 DEBUG   SenderThread:24636 [sender.py:send():303] send: header
+2022-10-29 02:09:42,705 INFO    WriterThread:24636 [datastore.py:open_for_write():75] open: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\run-2ob0o7sp.wandb
+2022-10-29 02:09:42,706 DEBUG   SenderThread:24636 [sender.py:send():303] send: run
+2022-10-29 02:09:43,210 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: check_version
+2022-10-29 02:09:43,211 INFO    SenderThread:24636 [dir_watcher.py:__init__():216] watching files in: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files
+2022-10-29 02:09:43,211 INFO    SenderThread:24636 [sender.py:_start_run_threads():928] run started: 2ob0o7sp with start time 1667002181.695487
+2022-10-29 02:09:43,212 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:09:43,212 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:09:43,213 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: check_version
+2022-10-29 02:09:43,392 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: run_start
+2022-10-29 02:09:43,400 DEBUG   HandlerThread:24636 [meta.py:__init__():34] meta init
+2022-10-29 02:09:43,400 DEBUG   HandlerThread:24636 [meta.py:__init__():49] meta init done
+2022-10-29 02:09:43,401 DEBUG   HandlerThread:24636 [meta.py:probe():215] probe
+2022-10-29 02:09:43,402 DEBUG   HandlerThread:24636 [meta.py:_setup_git():205] setup git
+2022-10-29 02:09:43,509 DEBUG   HandlerThread:24636 [meta.py:_setup_git():212] setup git done
+2022-10-29 02:09:43,510 DEBUG   HandlerThread:24636 [meta.py:_save_pip():53] save pip
+2022-10-29 02:09:43,512 DEBUG   HandlerThread:24636 [meta.py:_save_pip():67] save pip done
+2022-10-29 02:09:43,512 DEBUG   HandlerThread:24636 [meta.py:_save_conda():74] save conda
+2022-10-29 02:09:44,219 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\conda-environment.yaml
+2022-10-29 02:09:44,219 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\wandb-summary.json
+2022-10-29 02:09:44,220 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\requirements.txt
+2022-10-29 02:09:59,725 DEBUG   HandlerThread:24636 [meta.py:_save_conda():84] save conda done
+2022-10-29 02:09:59,725 DEBUG   HandlerThread:24636 [meta.py:probe():253] probe done
+2022-10-29 02:09:59,727 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:09:59,728 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:09:59,731 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: get_summary
+2022-10-29 02:09:59,732 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: keepalive
+2022-10-29 02:09:59,732 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: keepalive
+2022-10-29 02:09:59,949 DEBUG   SenderThread:24636 [sender.py:send():303] send: telemetry
+2022-10-29 02:09:59,950 DEBUG   SenderThread:24636 [sender.py:send():303] send: telemetry
+2022-10-29 02:09:59,950 DEBUG   SenderThread:24636 [sender.py:send():303] send: telemetry
+2022-10-29 02:09:59,950 DEBUG   SenderThread:24636 [sender.py:send():303] send: files
+2022-10-29 02:09:59,951 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file model-best.h5 with policy live
+2022-10-29 02:09:59,951 DEBUG   SenderThread:24636 [sender.py:send():303] send: telemetry
+2022-10-29 02:09:59,951 DEBUG   SenderThread:24636 [sender.py:send():303] send: files
+2022-10-29 02:09:59,951 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-10-29 02:10:00,361 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\conda-environment.yaml
+2022-10-29 02:10:00,362 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\wandb-metadata.json
+2022-10-29 02:10:00,362 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\output.log
+2022-10-29 02:10:00,611 INFO    Thread-71 :24636 [upload_job.py:push():143] Uploaded file C:\Users\marka\AppData\Local\Temp\tmpi12jt_wgwandb\1c83gku3-wandb-metadata.json
+2022-10-29 02:10:00,832 DEBUG   SenderThread:24636 [sender.py:send():303] send: files
+2022-10-29 02:10:00,833 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file media\graph\graph_summary_240f18866c35a96425fd.graph.json with policy now
+2022-10-29 02:10:00,834 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:10:00,837 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:10:01,365 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\wandb-summary.json
+2022-10-29 02:10:01,365 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\media\graph\graph_summary_240f18866c35a96425fd.graph.json
+2022-10-29 02:10:01,365 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\media
+2022-10-29 02:10:01,366 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\media\graph
+2022-10-29 02:10:01,485 INFO    Thread-72 :24636 [upload_job.py:push():143] Uploaded file C:\Users\marka\AppData\Local\Temp\tmpi12jt_wgwandb\31hqwmyu-media/graph/graph_summary_240f18866c35a96425fd.graph.json
+2022-10-29 02:10:02,369 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\output.log
+2022-10-29 02:10:04,375 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\output.log
+2022-10-29 02:10:06,393 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\output.log
+2022-10-29 02:10:08,405 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\output.log
+2022-10-29 02:10:08,420 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:10:08,420 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:10:10,435 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\output.log
+2022-10-29 02:10:12,446 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\output.log
+2022-10-29 02:10:13,451 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\config.yaml
+2022-10-29 02:10:14,348 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:10:14,456 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\output.log
+2022-10-29 02:10:16,484 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\output.log
+2022-10-29 02:10:18,499 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\output.log
+2022-10-29 02:10:20,510 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\output.log
+2022-10-29 02:10:22,515 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\output.log
+2022-10-29 02:10:23,640 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:10:23,641 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:10:24,528 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\output.log
+2022-10-29 02:10:26,560 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\output.log
+2022-10-29 02:10:26,896 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: pause
+2022-10-29 02:10:26,896 INFO    HandlerThread:24636 [handler.py:handle_request_pause():696] stopping system metrics thread
+2022-10-29 02:10:26,935 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:10:28,578 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\output.log
+2022-10-29 02:10:29,329 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: resume
+2022-10-29 02:10:29,329 INFO    HandlerThread:24636 [handler.py:handle_request_resume():687] starting system metrics thread
+2022-10-29 02:10:29,438 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: pause
+2022-10-29 02:10:29,438 INFO    HandlerThread:24636 [handler.py:handle_request_pause():696] stopping system metrics thread
+2022-10-29 02:10:29,479 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:10:30,628 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: resume
+2022-10-29 02:10:30,629 INFO    HandlerThread:24636 [handler.py:handle_request_resume():687] starting system metrics thread
+2022-10-29 02:10:30,656 DEBUG   SenderThread:24636 [sender.py:send():303] send: telemetry
+2022-10-29 02:10:30,657 DEBUG   SenderThread:24636 [sender.py:send():303] send: exit
+2022-10-29 02:10:30,657 INFO    SenderThread:24636 [sender.py:send_exit():442] handling exit code: 0
+2022-10-29 02:10:30,657 INFO    SenderThread:24636 [sender.py:send_exit():444] handling runtime: 43
+2022-10-29 02:10:30,661 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:10:30,661 INFO    SenderThread:24636 [sender.py:send_exit():450] send defer
+2022-10-29 02:10:30,662 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 02:10:30,662 INFO    HandlerThread:24636 [handler.py:handle_request_defer():161] handle defer: 0
+2022-10-29 02:10:30,662 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: defer
+2022-10-29 02:10:30,662 INFO    SenderThread:24636 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-10-29 02:10:30,662 INFO    SenderThread:24636 [sender.py:transition_state():463] send defer: 1
+2022-10-29 02:10:30,662 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 02:10:30,663 INFO    HandlerThread:24636 [handler.py:handle_request_defer():161] handle defer: 1
+2022-10-29 02:10:30,789 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: defer
+2022-10-29 02:10:30,789 INFO    SenderThread:24636 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-10-29 02:10:30,790 INFO    SenderThread:24636 [sender.py:transition_state():463] send defer: 2
+2022-10-29 02:10:30,790 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:10:30,791 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 02:10:30,791 INFO    HandlerThread:24636 [handler.py:handle_request_defer():161] handle defer: 2
+2022-10-29 02:10:30,791 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: defer
+2022-10-29 02:10:30,791 INFO    SenderThread:24636 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-10-29 02:10:30,791 INFO    SenderThread:24636 [sender.py:transition_state():463] send defer: 3
+2022-10-29 02:10:30,791 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 02:10:30,792 INFO    HandlerThread:24636 [handler.py:handle_request_defer():161] handle defer: 3
+2022-10-29 02:10:30,792 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: defer
+2022-10-29 02:10:30,792 INFO    SenderThread:24636 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-10-29 02:10:30,792 INFO    SenderThread:24636 [sender.py:transition_state():463] send defer: 4
+2022-10-29 02:10:30,792 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 02:10:30,792 INFO    HandlerThread:24636 [handler.py:handle_request_defer():161] handle defer: 4
+2022-10-29 02:10:30,793 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:10:30,795 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:10:30,795 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: defer
+2022-10-29 02:10:30,795 INFO    SenderThread:24636 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-10-29 02:10:30,795 INFO    SenderThread:24636 [sender.py:transition_state():463] send defer: 5
+2022-10-29 02:10:30,795 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 02:10:30,796 INFO    HandlerThread:24636 [handler.py:handle_request_defer():161] handle defer: 5
+2022-10-29 02:10:30,796 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: defer
+2022-10-29 02:10:30,796 INFO    SenderThread:24636 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-10-29 02:10:31,065 INFO    SenderThread:24636 [sender.py:transition_state():463] send defer: 6
+2022-10-29 02:10:31,066 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 02:10:31,066 INFO    HandlerThread:24636 [handler.py:handle_request_defer():161] handle defer: 6
+2022-10-29 02:10:31,066 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: defer
+2022-10-29 02:10:31,066 INFO    SenderThread:24636 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-10-29 02:10:31,611 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\wandb-summary.json
+2022-10-29 02:10:31,611 INFO    Thread-65 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\config.yaml
+2022-10-29 02:10:31,658 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-29 02:10:32,126 INFO    SenderThread:24636 [sender.py:transition_state():463] send defer: 7
+2022-10-29 02:10:32,126 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: poll_exit
+2022-10-29 02:10:32,127 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 02:10:32,127 INFO    HandlerThread:24636 [handler.py:handle_request_defer():161] handle defer: 7
+2022-10-29 02:10:32,127 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: defer
+2022-10-29 02:10:32,127 INFO    SenderThread:24636 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-10-29 02:10:32,127 INFO    SenderThread:24636 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-10-29 02:10:32,624 INFO    SenderThread:24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\output.log
+2022-10-29 02:10:32,624 INFO    SenderThread:24636 [dir_watcher.py:finish():392] scan: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files
+2022-10-29 02:10:32,624 INFO    SenderThread:24636 [dir_watcher.py:finish():406] scan save: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\conda-environment.yaml conda-environment.yaml
+2022-10-29 02:10:32,625 INFO    SenderThread:24636 [dir_watcher.py:finish():406] scan save: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\config.yaml config.yaml
+2022-10-29 02:10:32,627 INFO    SenderThread:24636 [dir_watcher.py:finish():406] scan save: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\output.log output.log
+2022-10-29 02:10:32,630 INFO    SenderThread:24636 [dir_watcher.py:finish():406] scan save: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\requirements.txt requirements.txt
+2022-10-29 02:10:32,634 INFO    SenderThread:24636 [dir_watcher.py:finish():406] scan save: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\wandb-metadata.json wandb-metadata.json
+2022-10-29 02:10:32,635 INFO    SenderThread:24636 [dir_watcher.py:finish():406] scan save: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\wandb-summary.json wandb-summary.json
+2022-10-29 02:10:32,640 INFO    SenderThread:24636 [dir_watcher.py:finish():406] scan save: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\media\graph\graph_summary_240f18866c35a96425fd.graph.json media\graph\graph_summary_240f18866c35a96425fd.graph.json
+2022-10-29 02:10:32,641 INFO    SenderThread:24636 [sender.py:transition_state():463] send defer: 8
+2022-10-29 02:10:32,641 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 02:10:32,642 INFO    HandlerThread:24636 [handler.py:handle_request_defer():161] handle defer: 8
+2022-10-29 02:10:32,642 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: defer
+2022-10-29 02:10:32,642 INFO    SenderThread:24636 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-10-29 02:10:32,642 INFO    SenderThread:24636 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-29 02:10:32,669 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-29 02:10:32,670 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: poll_exit
+2022-10-29 02:10:33,380 INFO    Thread-76 :24636 [upload_job.py:push():143] Uploaded file C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\config.yaml
+2022-10-29 02:10:33,384 INFO    Thread-77 :24636 [upload_job.py:push():143] Uploaded file C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\output.log
+2022-10-29 02:10:33,403 INFO    Thread-75 :24636 [upload_job.py:push():143] Uploaded file C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\conda-environment.yaml
+2022-10-29 02:10:33,403 INFO    Thread-78 :24636 [upload_job.py:push():143] Uploaded file C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\requirements.txt
+2022-10-29 02:10:33,442 INFO    Thread-79 :24636 [upload_job.py:push():143] Uploaded file C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\files\wandb-summary.json
+2022-10-29 02:10:33,645 INFO    Thread-64 :24636 [sender.py:transition_state():463] send defer: 9
+2022-10-29 02:10:33,645 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 02:10:33,645 INFO    HandlerThread:24636 [handler.py:handle_request_defer():161] handle defer: 9
+2022-10-29 02:10:33,646 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: defer
+2022-10-29 02:10:33,646 INFO    SenderThread:24636 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-10-29 02:10:33,646 INFO    SenderThread:24636 [file_pusher.py:join():173] waiting for file pusher
+2022-10-29 02:10:33,646 INFO    SenderThread:24636 [sender.py:transition_state():463] send defer: 10
+2022-10-29 02:10:33,647 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 02:10:33,647 INFO    HandlerThread:24636 [handler.py:handle_request_defer():161] handle defer: 10
+2022-10-29 02:10:33,647 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: defer
+2022-10-29 02:10:33,647 INFO    SenderThread:24636 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-10-29 02:10:33,678 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-29 02:10:33,824 INFO    SenderThread:24636 [sender.py:transition_state():463] send defer: 11
+2022-10-29 02:10:33,824 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: poll_exit
+2022-10-29 02:10:33,825 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 02:10:33,825 INFO    HandlerThread:24636 [handler.py:handle_request_defer():161] handle defer: 11
+2022-10-29 02:10:33,825 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: defer
+2022-10-29 02:10:33,825 INFO    SenderThread:24636 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-10-29 02:10:33,825 INFO    SenderThread:24636 [sender.py:transition_state():463] send defer: 12
+2022-10-29 02:10:33,826 DEBUG   SenderThread:24636 [sender.py:send():303] send: final
+2022-10-29 02:10:33,826 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 02:10:33,826 DEBUG   SenderThread:24636 [sender.py:send():303] send: footer
+2022-10-29 02:10:33,827 INFO    HandlerThread:24636 [handler.py:handle_request_defer():161] handle defer: 12
+2022-10-29 02:10:33,827 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: defer
+2022-10-29 02:10:33,827 INFO    SenderThread:24636 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-10-29 02:10:33,828 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-29 02:10:33,828 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: poll_exit
+2022-10-29 02:10:33,828 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: server_info
+2022-10-29 02:10:33,829 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: server_info
+2022-10-29 02:10:33,829 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: get_summary
+2022-10-29 02:10:33,832 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: sampled_history
+2022-10-29 02:10:34,260 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: shutdown
+2022-10-29 02:10:34,260 INFO    HandlerThread:24636 [handler.py:finish():814] shutting down handler
+2022-10-29 02:10:34,827 INFO    WriterThread:24636 [datastore.py:close():279] close: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_020935-2ob0o7sp\run-2ob0o7sp.wandb
+2022-10-29 02:10:35,265 INFO    SenderThread:24636 [sender.py:finish():1331] shutting down sender
+2022-10-29 02:10:35,266 INFO    SenderThread:24636 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-29 02:10:35,267 INFO    SenderThread:24636 [file_pusher.py:join():173] waiting for file pusher
+2022-10-29 02:10:36,274 INFO    StreamThr :24636 [internal.py:wandb_internal():88] W&B internal server running at pid: 24636, started at: 2022-10-29 02:10:36.273519
+2022-10-29 02:10:36,280 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: status
+2022-10-29 02:10:36,285 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: status
+2022-10-29 02:10:36,287 DEBUG   SenderThread:24636 [sender.py:send():303] send: header
+2022-10-29 02:10:36,288 INFO    WriterThread:24636 [datastore.py:open_for_write():75] open: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\run-ol60gv2h.wandb
+2022-10-29 02:10:36,288 DEBUG   SenderThread:24636 [sender.py:send():303] send: run
+2022-10-29 02:10:36,786 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: check_version
+2022-10-29 02:10:36,786 INFO    SenderThread:24636 [dir_watcher.py:__init__():216] watching files in: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files
+2022-10-29 02:10:36,787 INFO    SenderThread:24636 [sender.py:_start_run_threads():928] run started: ol60gv2h with start time 1667002235.283595
+2022-10-29 02:10:36,787 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:10:36,787 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:10:36,788 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: check_version
+2022-10-29 02:10:36,961 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: run_start
+2022-10-29 02:10:36,969 DEBUG   HandlerThread:24636 [meta.py:__init__():34] meta init
+2022-10-29 02:10:36,969 DEBUG   HandlerThread:24636 [meta.py:__init__():49] meta init done
+2022-10-29 02:10:36,969 DEBUG   HandlerThread:24636 [meta.py:probe():215] probe
+2022-10-29 02:10:36,971 DEBUG   HandlerThread:24636 [meta.py:_setup_git():205] setup git
+2022-10-29 02:10:37,078 DEBUG   HandlerThread:24636 [meta.py:_setup_git():212] setup git done
+2022-10-29 02:10:37,078 DEBUG   HandlerThread:24636 [meta.py:_save_pip():53] save pip
+2022-10-29 02:10:37,081 DEBUG   HandlerThread:24636 [meta.py:_save_pip():67] save pip done
+2022-10-29 02:10:37,081 DEBUG   HandlerThread:24636 [meta.py:_save_conda():74] save conda
+2022-10-29 02:10:37,795 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\conda-environment.yaml
+2022-10-29 02:10:37,796 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:10:37,796 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\requirements.txt
+2022-10-29 02:10:53,849 DEBUG   HandlerThread:24636 [meta.py:_save_conda():84] save conda done
+2022-10-29 02:10:53,850 DEBUG   HandlerThread:24636 [meta.py:probe():253] probe done
+2022-10-29 02:10:53,852 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:10:53,852 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:10:53,855 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: get_summary
+2022-10-29 02:10:53,856 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: keepalive
+2022-10-29 02:10:53,857 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: keepalive
+2022-10-29 02:10:53,922 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\conda-environment.yaml
+2022-10-29 02:10:53,922 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-metadata.json
+2022-10-29 02:10:54,095 DEBUG   SenderThread:24636 [sender.py:send():303] send: telemetry
+2022-10-29 02:10:54,096 DEBUG   SenderThread:24636 [sender.py:send():303] send: telemetry
+2022-10-29 02:10:54,096 DEBUG   SenderThread:24636 [sender.py:send():303] send: telemetry
+2022-10-29 02:10:54,097 DEBUG   SenderThread:24636 [sender.py:send():303] send: files
+2022-10-29 02:10:54,097 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file model-best.h5 with policy live
+2022-10-29 02:10:54,097 DEBUG   SenderThread:24636 [sender.py:send():303] send: telemetry
+2022-10-29 02:10:54,097 DEBUG   SenderThread:24636 [sender.py:send():303] send: files
+2022-10-29 02:10:54,098 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-10-29 02:10:54,730 INFO    Thread-95 :24636 [upload_job.py:push():143] Uploaded file C:\Users\marka\AppData\Local\Temp\tmp0bxxhnzlwandb\4fy6ajzs-wandb-metadata.json
+2022-10-29 02:10:54,853 DEBUG   SenderThread:24636 [sender.py:send():303] send: files
+2022-10-29 02:10:54,854 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file media\graph\graph_summary_3a83fe7913370602edd8.graph.json with policy now
+2022-10-29 02:10:54,855 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:10:54,858 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:10:54,938 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:10:54,938 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:10:54,938 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\media\graph\graph_summary_3a83fe7913370602edd8.graph.json
+2022-10-29 02:10:54,939 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\media\graph
+2022-10-29 02:10:54,939 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\media
+2022-10-29 02:10:55,581 INFO    Thread-96 :24636 [upload_job.py:push():143] Uploaded file C:\Users\marka\AppData\Local\Temp\tmp0bxxhnzlwandb\3lejnkj1-media/graph/graph_summary_3a83fe7913370602edd8.graph.json
+2022-10-29 02:10:56,954 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:10:58,980 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:01,001 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:01,994 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:11:01,994 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:11:03,015 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:04,680 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:11:04,681 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:11:04,682 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:11:04,682 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:11:04,684 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:11:05,032 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:11:05,032 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:07,049 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:07,050 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\config.yaml
+2022-10-29 02:11:07,957 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:11:09,076 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:11,097 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:13,113 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:14,530 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:11:14,531 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:11:14,531 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:11:14,532 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:11:14,534 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:11:15,126 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:11:15,127 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:17,140 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:17,218 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:11:17,218 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:11:19,147 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:21,166 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:23,191 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:24,404 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:11:24,405 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:11:24,405 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:11:24,405 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:11:24,407 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:11:25,212 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:11:25,212 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:27,224 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:29,237 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:31,255 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:32,452 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:11:32,452 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:11:33,281 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:34,255 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:11:34,256 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:11:34,256 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:11:34,257 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:11:34,259 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:11:34,297 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:11:34,298 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:36,326 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:38,355 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:40,370 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:40,979 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:11:42,373 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:44,049 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:11:44,049 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:11:44,050 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:11:44,050 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:11:44,052 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:11:44,392 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:11:44,393 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:46,408 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:47,686 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:11:47,686 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:11:48,436 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:50,450 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:52,467 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:53,870 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:11:53,870 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:11:53,871 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:11:53,871 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:11:53,874 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:11:54,486 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:11:54,486 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:56,511 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:11:58,528 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:00,556 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:02,579 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:02,938 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:12:02,938 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:12:03,713 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:12:03,714 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:12:03,714 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:12:03,715 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:12:03,717 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:12:04,599 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:12:04,599 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:06,626 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:08,634 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:10,656 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:12,667 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:13,581 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:12:13,582 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:12:13,582 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:12:13,583 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:12:13,585 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:12:13,673 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:12:13,994 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:12:14,684 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:16,706 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:18,217 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:12:18,217 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:12:18,736 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:20,757 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:22,780 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:23,497 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:12:23,498 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:12:23,498 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:12:23,499 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:12:23,501 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:12:23,790 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:12:24,796 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:26,815 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:28,834 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:30,856 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:32,870 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:33,329 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:12:33,330 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:12:33,330 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:12:33,331 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:12:33,333 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:12:33,464 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:12:33,464 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:12:33,882 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:12:34,887 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:36,917 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:38,935 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:40,950 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:42,970 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:43,098 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:12:43,099 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:12:43,099 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:12:43,100 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:12:43,102 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:12:43,971 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:12:44,986 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:47,016 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:47,058 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:12:48,759 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:12:48,759 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:12:49,046 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:51,077 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:52,871 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:12:52,871 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:12:52,872 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:12:52,872 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:12:52,874 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:12:53,107 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:12:53,107 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:55,127 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:57,139 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:12:59,154 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:01,182 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:02,667 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:13:02,668 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:13:02,669 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:13:02,669 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:13:02,671 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:13:03,206 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:13:03,206 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:03,984 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:13:03,984 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:13:05,229 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:07,244 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:09,259 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:11,283 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:12,411 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:13:12,412 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:13:12,412 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:13:12,413 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:13:12,415 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:13:13,311 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:13:13,311 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:15,337 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:17,340 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:19,233 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:13:19,233 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:13:19,346 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:20,200 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:13:21,378 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:22,187 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:13:22,188 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:13:22,188 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:13:22,189 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:13:22,191 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:13:22,390 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:13:23,402 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:25,421 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:27,447 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:29,469 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:31,482 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:31,989 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:13:31,990 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:13:31,990 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:13:31,991 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:13:31,993 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:13:32,497 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:13:33,501 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:34,466 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:13:34,466 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:13:35,529 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:37,548 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:39,561 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:41,581 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:41,776 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:13:41,776 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:13:41,777 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:13:41,777 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:13:41,779 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:13:42,594 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:13:43,596 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:45,612 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:47,633 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:49,654 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:49,699 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:13:49,700 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:13:51,568 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:13:51,568 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:13:51,569 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:13:51,569 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:13:51,571 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:13:51,675 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:13:51,676 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:53,261 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:13:53,705 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:55,733 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:57,752 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:13:59,771 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:01,405 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:14:01,405 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:14:01,406 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:14:01,406 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:14:01,408 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:14:01,784 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:14:01,785 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:03,812 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:04,950 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:14:04,951 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:14:05,843 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:07,859 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:09,887 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:11,210 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:14:11,211 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:14:11,211 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:14:11,212 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:14:11,214 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:14:11,892 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:14:11,892 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:13,921 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:15,937 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:17,956 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:19,982 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:20,182 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:14:20,182 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:14:20,976 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:14:20,977 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:14:20,977 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:14:20,977 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:14:20,980 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:14:20,998 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:14:20,998 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:23,013 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:25,025 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:26,398 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:14:27,041 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:29,063 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:30,738 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:14:30,739 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:14:30,739 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:14:30,740 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:14:30,742 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:14:31,091 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:14:31,091 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:33,096 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:35,124 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:35,418 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:14:35,418 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:14:37,154 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:39,170 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:40,524 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:14:40,525 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:14:40,525 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:14:40,525 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:14:40,527 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:14:41,175 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:14:41,175 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:43,192 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:45,212 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:47,229 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:49,251 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:50,351 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:14:50,352 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:14:50,352 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:14:50,353 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:14:50,355 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:14:50,712 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:14:50,713 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:14:51,267 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:14:51,267 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:53,299 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:55,312 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:57,332 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:59,346 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:14:59,507 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:15:00,170 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:15:00,171 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:15:00,171 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:15:00,171 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:15:00,173 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:15:00,362 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:15:01,377 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:03,407 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:05,432 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:05,947 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:15:05,947 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:15:07,453 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:09,465 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:09,985 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:15:09,986 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:15:09,986 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:15:09,986 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:15:09,989 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:15:10,471 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:15:11,486 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:13,498 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:15,514 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:17,542 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:19,554 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:19,843 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:15:19,844 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:15:19,844 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:15:19,845 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:15:19,847 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:15:20,562 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:15:21,184 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:15:21,184 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:15:21,571 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:23,609 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:25,621 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:27,640 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:29,646 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:15:29,647 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:15:29,647 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:15:29,648 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:15:29,650 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:15:29,659 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:15:29,659 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:31,674 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:32,535 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:15:33,700 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:35,705 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:36,408 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:15:36,408 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:15:37,717 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:39,437 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:15:39,438 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:15:39,438 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:15:39,439 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:15:39,441 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:15:39,726 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:15:39,726 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:41,745 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:43,759 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:45,778 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:47,799 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:49,208 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:15:49,209 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:15:49,209 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:15:49,210 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:15:49,212 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:15:49,813 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:15:49,813 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:51,636 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:15:51,637 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:15:51,828 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:53,859 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:55,865 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:57,879 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:15:59,042 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:15:59,042 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:15:59,043 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:15:59,043 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:15:59,045 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:15:59,905 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:15:59,905 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:01,920 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:03,933 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:05,585 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:16:05,954 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:06,870 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:16:06,870 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:16:07,971 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:08,870 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:16:08,870 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:16:08,871 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:16:08,871 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:16:08,873 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:16:08,972 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:16:09,991 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:12,000 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:14,024 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:16,043 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:18,063 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:18,685 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:16:18,685 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:16:18,686 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:16:18,687 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:16:18,689 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:16:19,072 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:16:20,082 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:22,096 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:22,110 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:16:22,111 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:16:24,111 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:26,127 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:28,145 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:28,513 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:16:28,514 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:16:28,514 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:16:28,515 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:16:28,517 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:16:29,156 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:16:30,166 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:32,175 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:34,204 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:36,234 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:37,338 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:16:37,338 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:16:38,245 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:38,314 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:16:38,314 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:16:38,315 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:16:38,315 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:16:38,317 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:16:38,678 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:16:39,247 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:16:40,252 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:42,261 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:44,268 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:46,280 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:48,167 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:16:48,168 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:16:48,168 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:16:48,169 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:16:48,171 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:16:48,309 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:16:48,309 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:50,329 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:52,350 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:52,566 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:16:52,566 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:16:54,369 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:56,394 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:16:58,073 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:16:58,074 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:16:58,074 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:16:58,074 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:16:58,077 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:16:58,406 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:16:58,406 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:00,425 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:02,452 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:04,481 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:06,501 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:07,810 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:17:07,810 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:17:07,941 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:17:07,941 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:17:08,467 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:17:08,467 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:17:08,469 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:17:08,525 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:17:08,525 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:10,548 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:11,754 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:17:12,570 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:14,575 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:16,599 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:17,826 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:17:17,827 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:17:17,827 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:17:17,828 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:17:17,830 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:17:18,626 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:17:18,626 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:20,654 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:22,678 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:23,471 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:17:23,471 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:17:24,702 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:26,713 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:27,732 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:17:27,733 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:17:27,733 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:17:27,734 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:17:27,736 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:17:28,737 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:17:28,737 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:30,750 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:32,782 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:34,798 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:36,826 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:37,623 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:17:37,624 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-29 02:17:37,625 DEBUG   SenderThread:24636 [sender.py:send():303] send: history
+2022-10-29 02:17:37,625 DEBUG   SenderThread:24636 [sender.py:send():303] send: summary
+2022-10-29 02:17:37,628 INFO    SenderThread:24636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 02:17:37,828 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\wandb-summary.json
+2022-10-29 02:17:38,704 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:17:38,705 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:17:38,829 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:40,852 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:42,866 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:44,780 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:17:44,873 INFO    Thread-89 :24636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221029_021030-ol60gv2h\files\output.log
+2022-10-29 02:17:54,099 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:17:54,099 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:18:09,338 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:18:09,339 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:18:17,918 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:18:24,587 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:18:24,588 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:18:39,830 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:18:39,831 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 02:18:51,026 DEBUG   SenderThread:24636 [sender.py:send():303] send: stats
+2022-10-29 02:18:55,502 DEBUG   HandlerThread:24636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 02:18:55,502 DEBUG   SenderThread:24636 [sender.py:send_request():317] send_request: stop_status
