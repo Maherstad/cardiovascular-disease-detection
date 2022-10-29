@@ -1,0 +1,181 @@
+Model: "sequential_8"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ dense_25 (Dense)            (None, 16)                320
+ batch_normalization_14 (Bat  (None, 16)               64
+ chNormalization)
+ activation_5 (Activation)   (None, 16)                0
+ dropout_9 (Dropout)         (None, 16)                0
+ dense_26 (Dense)            (None, 32)                544
+ batch_normalization_15 (Bat  (None, 32)               128
+ chNormalization)
+ activation_6 (Activation)   (None, 32)                0
+ dropout_10 (Dropout)        (None, 32)                0
+ dense_27 (Dense)            (None, 16)                528
+ batch_normalization_16 (Bat  (None, 16)               64
+ chNormalization)
+ activation_7 (Activation)   (None, 16)                0
+ dropout_11 (Dropout)        (None, 16)                0
+ dense_28 (Dense)            (None, 16)                272
+ batch_normalization_17 (Bat  (None, 16)               64
+ chNormalization)
+ activation_8 (Activation)   (None, 16)                0
+ dropout_12 (Dropout)        (None, 16)                0
+ dense_29 (Dense)            (None, 16)                272
+ batch_normalization_18 (Bat  (None, 16)               64
+ chNormalization)
+ activation_9 (Activation)   (None, 16)                0
+ dropout_13 (Dropout)        (None, 16)                0
+ dense_30 (Dense)            (None, 1)                 17
+ batch_normalization_19 (Bat  (None, 1)                4
+ chNormalization)
+ activation_10 (Activation)  (None, 1)                 0
+=================================================================
+Total params: 2,341
+Trainable params: 2,147
+Non-trainable params: 194
+_________________________________________________________________
+Epoch 1/10
+
+
+
+
+
+
+
+
+1040/1040 [==============================] - 20s 18ms/step - loss: 0.5662 - accuracy: 0.7265
+Epoch 2/10
+
+
+
+
+
+
+
+
+1040/1040 [==============================] - 19s 18ms/step - loss: 0.5623 - accuracy: 0.7282
+Epoch 3/10
+
+
+
+
+
+
+
+
+
+1040/1040 [==============================] - 19s 18ms/step - loss: 0.5610 - accuracy: 0.7280
+Epoch 4/10
+
+
+
+
+
+
+
+
+1040/1040 [==============================] - 19s 18ms/step - loss: 0.5622 - accuracy: 0.7271
+Epoch 5/10
+
+
+
+
+
+
+
+
+1040/1040 [==============================] - 18s 18ms/step - loss: 0.5634 - accuracy: 0.7279
+Epoch 6/10
+
+
+
+
+
+
+
+
+1040/1040 [==============================] - 18s 18ms/step - loss: 0.5640 - accuracy: 0.7276
+Epoch 7/10
+
+
+
+
+
+
+
+
+1040/1040 [==============================] - 19s 18ms/step - loss: 0.5632 - accuracy: 0.7271
+Epoch 8/10
+
+
+
+
+
+
+
+
+
+1040/1040 [==============================] - 19s 18ms/step - loss: 0.5669 - accuracy: 0.7275
+Epoch 9/10
+
+
+
+
+
+
+
+
+1040/1040 [==============================] - 18s 18ms/step - loss: 0.5641 - accuracy: 0.7295
+Epoch 10/10
+
+
+
+
+
+
+
+
+
+1040/1040 [==============================] - 18s 18ms/step - loss: 0.5645 - accuracy: 0.7270
+Model: "sequential_8"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ dense_25 (Dense)            (None, 16)                320
+ batch_normalization_14 (Bat  (None, 16)               64
+ chNormalization)
+ activation_5 (Activation)   (None, 16)                0
+ dropout_9 (Dropout)         (None, 16)                0
+ dense_26 (Dense)            (None, 32)                544
+ batch_normalization_15 (Bat  (None, 32)               128
+ chNormalization)
+ activation_6 (Activation)   (None, 32)                0
+ dropout_10 (Dropout)        (None, 32)                0
+ dense_27 (Dense)            (None, 16)                528
+ batch_normalization_16 (Bat  (None, 16)               64
+ chNormalization)
+ activation_7 (Activation)   (None, 16)                0
+ dropout_11 (Dropout)        (None, 16)                0
+ dense_28 (Dense)            (None, 16)                272
+ batch_normalization_17 (Bat  (None, 16)               64
+ chNormalization)
+ activation_8 (Activation)   (None, 16)                0
+ dropout_12 (Dropout)        (None, 16)                0
+ dense_29 (Dense)            (None, 16)                272
+ batch_normalization_18 (Bat  (None, 16)               64
+ chNormalization)
+ activation_9 (Activation)   (None, 16)                0
+ dropout_13 (Dropout)        (None, 16)                0
+ dense_30 (Dense)            (None, 1)                 17
+ batch_normalization_19 (Bat  (None, 1)                4
+ chNormalization)
+ activation_10 (Activation)  (None, 1)                 0
+=================================================================
+Total params: 2,341
+Trainable params: 2,147
+Non-trainable params: 194
+_________________________________________________________________
+
+110/110 [==============================] - 1s 4ms/step - loss: 0.6168 - accuracy: 0.7203

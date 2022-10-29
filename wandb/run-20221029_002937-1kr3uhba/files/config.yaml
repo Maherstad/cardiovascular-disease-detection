@@ -1,0 +1,50 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.4
+    framework: lightgbm
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.9.7
+    start_time: 1666996183.999133
+    t:
+      1:
+      - 1
+      - 2
+      - 3
+      - 5
+      - 8
+      - 53
+      - 54
+      - 55
+      2:
+      - 1
+      - 2
+      - 3
+      - 5
+      - 8
+      - 53
+      - 54
+      - 55
+      3:
+      - 2
+      - 3
+      - 8
+      - 16
+      - 23
+      4: 3.9.7
+      5: 0.13.4
+      8:
+      - 1
+      - 3
+      - 5
+      10:
+      - 9
+batch_size:
+  desc: null
+  value: 32
+epochs:
+  desc: null
+  value: 25

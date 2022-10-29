@@ -1,0 +1,1 @@
+{"graph": {"_type": "graph-file", "sha256": "d30b2833f9f9ce336aac426d181d06a09566fe9913b2844507ccbea6fe75d349", "size": 3975, "path": "media/graph/graph_summary_d30b2833f9f9ce336aac.graph.json"}, "epoch": 9, "_timestamp": 1666981914.0024643, "loss": 0.5922163128852844, "accuracy": 0.7178646326065063, "_runtime": 413.7182261943817, "_step": 9, "_wandb": {"runtime": 412}}

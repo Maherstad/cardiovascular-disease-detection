@@ -1,0 +1,362 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+Epoch 1/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 39s 18ms/step - loss: 3.0825 - accuracy: 0.5024
+Epoch 2/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 38s 18ms/step - loss: 0.6726 - accuracy: 0.6095
+Epoch 3/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 38s 18ms/step - loss: 0.6362 - accuracy: 0.6920
+Epoch 4/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 38s 18ms/step - loss: 0.6336 - accuracy: 0.7058
+Epoch 5/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 37s 18ms/step - loss: 0.6259 - accuracy: 0.7114
+Epoch 6/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 38s 18ms/step - loss: 0.6231 - accuracy: 0.7114
+Epoch 7/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 37s 18ms/step - loss: 0.6265 - accuracy: 0.7135
+Epoch 8/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 37s 18ms/step - loss: 0.6288 - accuracy: 0.7114
+Epoch 9/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 37s 18ms/step - loss: 0.6236 - accuracy: 0.7128
+Epoch 10/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 37s 18ms/step - loss: 0.6183 - accuracy: 0.7136
+Epoch 11/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 38s 18ms/step - loss: 0.6237 - accuracy: 0.7153
+Epoch 12/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 37s 18ms/step - loss: 0.6190 - accuracy: 0.7125
+Epoch 13/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 37s 18ms/step - loss: 0.6232 - accuracy: 0.7146
+Epoch 14/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 38s 18ms/step - loss: 0.6221 - accuracy: 0.7129
+Epoch 15/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 38s 18ms/step - loss: 0.6224 - accuracy: 0.7137
+Epoch 16/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 37s 18ms/step - loss: 0.6200 - accuracy: 0.7140
+Epoch 17/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 37s 18ms/step - loss: 0.6186 - accuracy: 0.7132
+Epoch 18/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 38s 18ms/step - loss: 0.6211 - accuracy: 0.7138
+Epoch 19/20
+
+
+
+
+ 436/2079 [=====>........................] - ETA: 30s - loss: 0.6127 - accuracy: 0.7177

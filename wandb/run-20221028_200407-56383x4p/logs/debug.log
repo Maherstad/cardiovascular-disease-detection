@@ -1,0 +1,80 @@
+2022-10-28 20:04:07,348 INFO    MainThread:20772 [wandb_setup.py:_flush():68] Configure stats pid to 20772
+2022-10-28 20:04:07,348 INFO    MainThread:20772 [wandb_setup.py:_flush():68] Loading settings from C:\Users\marka\.config\wandb\settings
+2022-10-28 20:04:07,348 INFO    MainThread:20772 [wandb_setup.py:_flush():68] Loading settings from C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\settings
+2022-10-28 20:04:07,348 INFO    MainThread:20772 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-28 20:04:07,349 INFO    MainThread:20772 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-10-28 20:04:07,349 INFO    MainThread:20772 [wandb_init.py:_log_setup():476] Logging user logs to C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221028_200407-56383x4p\logs\debug.log
+2022-10-28 20:04:07,349 INFO    MainThread:20772 [wandb_init.py:_log_setup():477] Logging internal logs to C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221028_200407-56383x4p\logs\debug-internal.log
+2022-10-28 20:04:07,349 INFO    MainThread:20772 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000027A97D8DEB0>
+2022-10-28 20:04:07,350 INFO    MainThread:20772 [wandb_init.py:init():516] calling init triggers
+2022-10-28 20:04:07,350 INFO    MainThread:20772 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'epochs': 10, 'batch_size': 32}
+2022-10-28 20:04:07,350 INFO    MainThread:20772 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 2too0nut
+2022-10-28 20:04:07,351 INFO    MainThread:20772 [wandb_run.py:_finish():1746] finishing run markalsa/my-test-project/2too0nut
+2022-10-28 20:04:07,352 INFO    MainThread:20772 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-10-28 20:04:07,352 INFO    MainThread:20772 [wandb_run.py:_restore():1932] restore
+2022-10-28 20:04:07,352 INFO    MainThread:20772 [wandb_run.py:_restore():1938] restore done
+2022-10-28 20:04:12,820 INFO    MainThread:20772 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-10-28 20:04:12,821 INFO    MainThread:20772 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-10-28 20:04:12,827 INFO    MainThread:20772 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-10-28 20:04:12,832 INFO    MainThread:20772 [wandb_init.py:init():569] starting backend
+2022-10-28 20:04:12,833 INFO    MainThread:20772 [wandb_init.py:init():573] setting up manager
+2022-10-28 20:04:12,835 INFO    MainThread:20772 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn, using: spawn
+2022-10-28 20:04:12,837 INFO    MainThread:20772 [wandb_init.py:init():580] backend started and connected
+2022-10-28 20:04:12,854 INFO    MainThread:20772 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-10-28 20:04:12,854 INFO    MainThread:20772 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-10-28 20:04:12,854 INFO    MainThread:20772 [wandb_init.py:init():658] updated telemetry
+2022-10-28 20:04:12,911 INFO    MainThread:20772 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-10-28 20:04:15,075 INFO    MainThread:20772 [wandb_run.py:_on_init():2000] communicating current version
+2022-10-28 20:04:15,261 INFO    MainThread:20772 [wandb_run.py:_on_init():2004] got version response 
+2022-10-28 20:04:15,261 INFO    MainThread:20772 [wandb_init.py:init():728] starting run threads in backend
+2022-10-28 20:04:20,298 INFO    MainThread:20772 [wandb_run.py:_console_start():1980] atexit reg
+2022-10-28 20:04:20,299 INFO    MainThread:20772 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-10-28 20:04:20,299 INFO    MainThread:20772 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-10-28 20:04:20,299 INFO    MainThread:20772 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-10-28 20:04:20,299 INFO    MainThread:20772 [wandb_init.py:init():765] run started, returning control to user process
+2022-10-28 20:04:20,300 INFO    MainThread:20772 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-28 20:04:20,301 INFO    MainThread:20772 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-28 20:06:34,933 INFO    MainThread:20772 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-28 20:06:39,201 INFO    MainThread:20772 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-28 20:06:39,201 INFO    MainThread:20772 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-28 20:06:49,461 INFO    MainThread:20772 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-28 20:06:49,462 INFO    MainThread:20772 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-28 20:06:49,462 INFO    MainThread:20772 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-28 20:06:51,699 INFO    MainThread:20772 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-28 20:06:51,764 INFO    MainThread:20772 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-28 20:06:51,764 INFO    MainThread:20772 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-28 20:06:58,619 INFO    MainThread:20772 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-28 20:06:58,685 INFO    MainThread:20772 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-28 20:06:58,685 INFO    MainThread:20772 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-28 20:07:00,151 INFO    MainThread:20772 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-28 20:07:00,159 INFO    MainThread:20772 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-28 20:07:00,159 INFO    MainThread:20772 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-28 20:07:08,439 INFO    MainThread:20772 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-28 20:07:08,512 INFO    MainThread:20772 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-28 20:07:08,512 INFO    MainThread:20772 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-28 20:07:13,582 INFO    MainThread:20772 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-28 20:07:13,722 INFO    MainThread:20772 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-28 20:07:13,722 INFO    MainThread:20772 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-28 20:07:26,354 INFO    MainThread:20772 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-28 20:07:26,379 INFO    MainThread:20772 [wandb_setup.py:_flush():68] Configure stats pid to 20772
+2022-10-28 20:07:26,379 INFO    MainThread:20772 [wandb_setup.py:_flush():68] Loading settings from C:\Users\marka\.config\wandb\settings
+2022-10-28 20:07:26,379 INFO    MainThread:20772 [wandb_setup.py:_flush():68] Loading settings from C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\settings
+2022-10-28 20:07:26,379 INFO    MainThread:20772 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-28 20:07:26,379 INFO    MainThread:20772 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-10-28 20:07:26,380 INFO    MainThread:20772 [wandb_init.py:_log_setup():476] Logging user logs to C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221028_200726-10czw06e\logs\debug.log
+2022-10-28 20:07:26,380 INFO    MainThread:20772 [wandb_init.py:_log_setup():477] Logging internal logs to C:\Users\marka\Documents\cardiovascular-disease-detection\wandb\run-20221028_200726-10czw06e\logs\debug-internal.log
+2022-10-28 20:07:26,380 INFO    MainThread:20772 [wandb_init.py:init():516] calling init triggers
+2022-10-28 20:07:26,381 INFO    MainThread:20772 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'epochs': 10, 'batch_size': 32}
+2022-10-28 20:07:26,381 INFO    MainThread:20772 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 56383x4p
+2022-10-28 20:07:26,383 INFO    MainThread:20772 [wandb_run.py:_finish():1746] finishing run markalsa/my-test-project/56383x4p
+2022-10-28 20:07:26,383 INFO    MainThread:20772 [jupyter.py:save_history():448] not saving jupyter history
+2022-10-28 20:07:26,383 INFO    MainThread:20772 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-28 20:07:26,383 INFO    MainThread:20772 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2022-10-28 20:07:26,383 INFO    MainThread:20772 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-10-28 20:07:26,384 INFO    MainThread:20772 [wandb_run.py:_restore():1932] restore
+2022-10-28 20:07:26,384 INFO    MainThread:20772 [wandb_run.py:_restore():1938] restore done
+2022-10-28 20:07:31,220 INFO    MainThread:20772 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-10-28 20:07:31,221 INFO    MainThread:20772 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-10-28 20:07:31,224 INFO    MainThread:20772 [wandb_run.py:_footer_sync_info():3333] logging synced files

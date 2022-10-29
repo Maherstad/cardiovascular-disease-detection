@@ -1,0 +1,228 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+Epoch 1/15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 43s 20ms/step - loss: 1.6274 - accuracy: 0.5673
+Epoch 2/15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 40s 19ms/step - loss: 5.1198 - accuracy: 0.5139
+Epoch 3/15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 40s 19ms/step - loss: 1.1707 - accuracy: 0.5108
+Epoch 4/15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 38s 18ms/step - loss: 0.6951 - accuracy: 0.5049
+Epoch 5/15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 38s 18ms/step - loss: 0.7633 - accuracy: 0.5071
+Epoch 6/15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 37s 18ms/step - loss: 6.3564 - accuracy: 0.5034
+Epoch 7/15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 37s 18ms/step - loss: 6.8193 - accuracy: 0.5125
+Epoch 8/15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 39s 19ms/step - loss: 7.3136 - accuracy: 0.5010
+Epoch 9/15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 41s 20ms/step - loss: 7.7178 - accuracy: 0.4997
+Epoch 10/15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 41s 19ms/step - loss: 7.7178 - accuracy: 0.4997
+Epoch 11/15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2079/2079 [==============================] - 40s 19ms/step - loss: 7.7178 - accuracy: 0.4997
+Epoch 12/15
+   1/2079 [..............................] - ETA: 43s - loss: 8.1945 - accuracy: 0.4688
